@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/*
+ * em HTML id = # no CSS (Só se usa em 1 elemento)
+ * em HTML class = . no CSS (Pode se usar em elemento)
+ */
+
+body{
+    background-color: rgb(219, 216, 216);
+    font-family: 'Open sans';
+}
+
+h1{
+    color: #1f003f;
+}
+
+#principal{
+    text-align: center;
+    background-color: #1f003f;
+    color: #fff;
+    padding: 15px;
+}
+
+h2{
+    color: #db8afd;
+    padding: 5px;
+}
+
+.basico{
+    border-left: 5px solid rgb(5, 65, 5);
+}
+
+.intermediario{
+    border-left: 5px solid rgb(253, 253, 36);
+}
+
+.avancado{
+    border-left: 5px solid rgb(250, 26, 26);
+}
+
+.destaque{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+p{
+    text-indent: 50px;
+    color: #150029;
+    text-align: justify;
+}

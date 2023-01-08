@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*SELECTORES PERSONALIZADO
+         *      #   =   id
+         *      .   =   classe
+         *      :   =   pseudo-classe
+         *      ::  =   Pseudo-element
+         *      >   =   (children) -Filho de 
+         */
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+        
+        a:visited{
+            color: blueviolet;
+        }
+
+        a:hover{
+            color: rgb(17, 119, 252);
+        }
+
+        .depois::after{
+            content: ' afta';
+        }
+
+        .antes::before{
+            content: ' before ';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalisando Links</h1>
+    <ul>
+        <li><a class="depois" href="https://google.com" target="_blank">Google</a></li>
+        <li><a class="antes" href="https://youtube.com" target="_blank">Youtube</a></li>
+        <li><a class="especial" href="https://github.com" target="_blank">GitHub</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    background-color: darkcyan;
+    color: aliceblue;
+    height: 50px;
+}
+
+.menu ul{
+    position: relative;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+    display: block;
+    
+    
+}
+
+.menu ul li:hover{
+    background-color: rgb(59, 162, 247);
+    border-radius: 10px;
+}
+
+.menu ul ul{
+    position: absolute;
+    min-width: 200px;
+    display: none;
+    background-color: rgb(59, 162, 247);
+}
+
+.menu ul ul li{
+    display: block;
+    background-color: rgb(143, 202, 250);
+    transition: .5s;
+}
+
+.menu ul li:hover ul{
+    display: block;
+    
+}

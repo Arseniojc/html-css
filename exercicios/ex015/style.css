@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    padding: 0px 50px;
+    background-color: rgb(195, 228, 255);
+}
+
+h1, h2{
+    color: rgb(5, 140, 252);
+}
+
+h1{
+    background-color: rgb(130, 228, 228);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
